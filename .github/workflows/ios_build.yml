@@ -48,7 +48,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: build/ios/iphoneos/CoopX.ipa
+          file: build/ios/iphoneos/ETHQR.ipa
           tag: v1.0
           overwrite: true
           body: "This is release is with new login page"
